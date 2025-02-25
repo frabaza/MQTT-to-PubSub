@@ -1,0 +1,49 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+terraform.tfvars
+*.tfvars
+*.terraform.lock.hcl
+.terraform/
+
+# Python files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Docker files
+*.log
+Dockerfile.*
+docker-compose.yml.bak
+
+# Local environment files
+.env
+*.env
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+
+# SA key
+mqtt-bridge-terraform-key.json
